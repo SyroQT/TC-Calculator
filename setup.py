@@ -10,7 +10,7 @@ setuptools.setup(
     description="A simple calculator",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    package_dir={'': 'src'},
+    packages=setuptools.find_packages(),
     url="https://github.com/SyroQT/TC-Calculator",
     classifiers=[
         "Programming Language :: Python :: 3",
