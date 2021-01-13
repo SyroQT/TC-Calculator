@@ -4,4 +4,4 @@ RUN pip install git+https://github.com/SyroQT/TC-Calculator
 
 RUN pip freeze
 
-RUN python
+CMD ["python"]
