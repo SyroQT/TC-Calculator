@@ -7,9 +7,10 @@ A simple python calculator made while practicing OOP and best documentation prac
 pip install git+https://github.com/SyroQT/TC-Calculator
 ```
 
+
 ## Usage
 ```python
-from calculator import Calculator
+from src.calculator import Calculator
 c = Calculator(6) # Can provide initial state default is 0
 
 print(c) # Output is 6 (the state) type str
